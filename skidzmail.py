@@ -1,7 +1,7 @@
 from httpx import Client as httpx
 from ujson import loads
 
-class Client:
+class SkidzMail:
     def __init__(self):
         self.session = httpx()
     
